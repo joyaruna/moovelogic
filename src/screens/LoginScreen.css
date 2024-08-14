@@ -1,0 +1,49 @@
+.LoginScreen {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    padding:  2rem; 
+}
+.login-logo {
+    object-fit: contain;
+    width: 7rem;
+    padding: 2;
+    padding: 2rem 0;
+    align-self: self-start;
+}
+
+.input-box {
+    width: 90%;
+    padding: 0.8rem 1rem;
+    border-radius: 20px;
+    background: #EFEFEF;
+    border-style: none;
+}
+
+.login-details {
+    font-size: 14px;
+    color: #545252;
+} 
+.login-help {
+    text-align: center;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 16px;
+    color: #181818;
+}
+
+.login-button {
+    padding: 1rem 0;
+    border-style: none;
+    width: 100%;
+    background: #CE0303;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.input-details {
+    margin: 1rem 0;
+}
